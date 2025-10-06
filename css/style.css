@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    font-size: 0.9rem;
+    
 }
 
 /* utility */
@@ -33,7 +33,7 @@ background-color: green;
 }
 
 .bg-scuro{
-    background-color: rgb(56, 56, 56);
+    background-color: rgb(34, 34, 34);
 }
 
 .bg-corallo{
@@ -51,17 +51,26 @@ background-color: green;
 }
 .blocco{
     display: inline-block;
-    border-radius: 20px;
-    padding: 4px;
+    border-radius: 30px;
+    padding: 13px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
+
+.dis-block{
+    display: block;
+}
+
+
 
 .text-bianco{
     color: white;
 }
 
-.text-blu{
-    color: rgb(41, 92, 235);
+.font-size{
+    font-size: 0.9rem;
 }
+
 .altezza{
     height: 400px;
 }
@@ -91,6 +100,10 @@ background-color: green;
 .space-around{
     justify-content: space-around;
 }
+
+.space-evenly{
+    justify-content: space-evenly;
+}
 .center{
     justify-content: center;
     align-items: center;
@@ -107,12 +120,16 @@ header{
     align-items: center;
 }
 
-ul{
+.flex-grow{
     flex-grow: 1;
  } 
 .gap{
     gap:15%;
     flex-wrap: nowrap; 
+}
+
+.gap1{
+    gap: 3%;
 }
 .ret{
     width: 50%;
@@ -131,9 +148,6 @@ ul{
     padding-top: 30px;
 }
 
-.bg-blu.altezza{
-    height: 250px;
-}
 .bg-celeste.sezione{
     width: 60%;
     
@@ -150,6 +164,10 @@ ul{
     background-size: cover;
 }
 
+.hero{
+    text-align: center;
+    line-height: 1.7;
+}
 /* sezione a 5 colonne */
 
 .bg-corallo.sezione{
