@@ -20,16 +20,9 @@ background-color: rgb(41, 92, 235);
 background-color: palevioletred;
 }
 
-.bg-arancione{
-background-color: orange;
-}
-
-.bg-verde{
-background-color: green;
-}
 
 .bg-grigio{
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(243, 243, 243);
 }
 
 .bg-scuro{
@@ -62,7 +55,9 @@ background-color: green;
 }
 
 
-
+.spazio-linea-titolo{
+    line-height: 2.5;
+}
 .text-bianco{
     color: white;
 }
@@ -122,7 +117,7 @@ header{
 
 .flex-grow{
     flex-grow: 1;
- } 
+} 
 .gap{
     gap:15%;
     flex-wrap: nowrap; 
@@ -164,10 +159,29 @@ header{
     background-size: cover;
 }
 
-.hero{
+.text-align{
     text-align: center;
+    
+}
+.line-height{
     line-height: 1.7;
 }
+/* Sezioni Info */
+
+
+
+
+
+
+.colonna{
+    flex-direction: column;
+}
+.padding{
+    padding:10px;
+    
+}
+
+
 /* sezione a 5 colonne */
 
 .bg-corallo.sezione{
@@ -210,7 +224,3 @@ footer{
     align-items: center;
 }
 
-.padding{
-    padding: 3px;
-    font-size: small;
-}
