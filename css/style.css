@@ -46,6 +46,9 @@ background-color: palevioletred;
 .bg-viola{
     background-color: rgb(139, 137, 253);
 }
+.viola{
+    color: rgb(139, 137, 253);
+}
 .margine{
     margin-bottom: 50px;
     margin-top: 25px;
@@ -199,15 +202,17 @@ header{
     
 }
 
-
+.bot-pad{
+    padding-bottom: 15px;
+}
 /* sezione a 5 colonne */
 
-.bg-corallo.sezione{
+.width1{
     width: 30%;
     /* height: 100%; */
 }
 
-.bg-turchese.sezione{
+.width2{
     width: 70%;
 }
 
@@ -226,13 +231,18 @@ li{
 /* footer */
 
 footer{
-    height: 60px;
+    height: 100px;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
+    
 }
 
-.border{
-    border-top: 1px solid rgb(182, 180, 180);
+.border-top{
+    border-top: 1px solid rgb(139, 137, 253);
+}
+
+.border-bottom{
+    
     border-bottom: 1px solid rgb(182, 180, 180);
 }
 
@@ -242,3 +252,6 @@ footer{
     align-items: center;
 }
 
+.piccolo{
+    font-size: small;
+}
