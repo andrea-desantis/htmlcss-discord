@@ -235,3 +235,7 @@ footer{
 .piccolo{
     font-size: small;
 }
+
+.max-width{
+    max-width: 1000px;
+}
