@@ -12,15 +12,6 @@
 background-color: rgb(41, 92, 235);
 }
 
-.bg-celeste{
-    background: lightskyblue;
-}
-
-.bg-rosa{
-background-color: palevioletred;
-}
-
-
 .bg-grigio{
     background-color: rgb(247, 247, 247);
 }
@@ -29,16 +20,6 @@ background-color: palevioletred;
     background-color: rgb(34, 34, 34);
 }
 
-.bg-corallo{
-    background: lightcoral;
-}
-
-.bg-turchese{
-    background: teal;
-}
-.bg-acqua{
-    background: rgb(96, 238, 157);
-}
 .bg-bianco{
     background-color: white;
 }
@@ -46,13 +27,16 @@ background-color: palevioletred;
 .bg-viola{
     background-color: rgb(139, 137, 253);
 }
+
 .viola{
     color: rgb(139, 137, 253);
 }
+
 .margine{
     margin-bottom: 50px;
     margin-top: 25px;
 }
+
 .blocco{
     display: inline-block;
     border-radius: 30px;
@@ -69,6 +53,7 @@ background-color: palevioletred;
 .spazio-linea-titolo{
     line-height: 2.5;
 }
+
 .text-bianco{
     color: white;
 }
@@ -78,13 +63,14 @@ background-color: palevioletred;
 }
 
 .altezza{
-    height: 400px;
+    min-height: 400px;
 }
 .alt-grande{
     height: 600px;
     padding-bottom: 30px;
     padding-top: 30px;
 }
+
 /* flexbox */
 
 .flex{
@@ -110,6 +96,7 @@ background-color: palevioletred;
 .space-evenly{
     justify-content: space-evenly;
 }
+
 .center{
     justify-content: center;
     align-items: center;
@@ -129,6 +116,7 @@ header{
 .flex-grow{
     flex-grow: 1;
 } 
+
 .gap{
     gap:15%;
     flex-wrap: nowrap; 
@@ -154,15 +142,7 @@ header{
     padding-top: 30px;
 }
 
-.bg-celeste.sezione{
-    width: 60%;
-    
-}
 
-.bg-rosa.sezione{
-    width: 40%;
-    
-}
 /* HERO */
 
 .sfondo-img{
