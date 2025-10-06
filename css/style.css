@@ -3,18 +3,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    font-size: 0.9rem;
 }
 
 /* utility */
-.bg-azzurro{
-background-color: rgb(149, 248, 248);
+.bg-blu{
+background-color: rgb(41, 92, 235);
 }
 
 .bg-celeste{
     background: lightskyblue;
-}
-.bg-blu{
-background-color: blue;
 }
 
 .bg-rosa{
@@ -30,7 +29,7 @@ background-color: green;
 }
 
 .bg-grigio{
-    background-color: rgb(182, 180, 180);
+    background-color: rgb(235, 235, 235);
 }
 
 .bg-scuro{
@@ -47,6 +46,22 @@ background-color: green;
 .bg-acqua{
     background: rgb(96, 238, 157);
 }
+.bg-bianco{
+    background-color: white;
+}
+.blocco{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.text-bianco{
+    color: white;
+}
+
+.text-blu{
+    color: rgb(41, 92, 235);
+}
 .altezza{
     height: 400px;
 }
@@ -62,16 +77,20 @@ background-color: green;
 }
 
 .header{
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     height: 50%;
     width: 70%;
 }
+
 .space-between{
     justify-content: space-between;
     
 }
 
+.space-around{
+    justify-content: space-around;
+}
 .center{
     justify-content: center;
     align-items: center;
@@ -88,7 +107,13 @@ header{
     align-items: center;
 }
 
-
+ul{
+    flex-grow: 1;
+ } 
+.gap{
+    gap:15%;
+    flex-wrap: nowrap; 
+}
 .ret{
     width: 50%;
     height: 80%;
@@ -118,7 +143,12 @@ header{
     width: 40%;
     
 }
+/* HERO */
 
+.sfondo-img{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
 
 /* sezione a 5 colonne */
 
@@ -132,8 +162,10 @@ header{
 }
 
 li{
-    display: flex;
-    flex-basis: 25%;
+    /* display: flex; */
+    /* flex-basis: 25%; */
+    flex-grow: 1;
+    list-style: none;
 }
 
 .sezione.padding{
