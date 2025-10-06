@@ -63,7 +63,7 @@ background-color: rgb(41, 92, 235);
 }
 
 .altezza{
-    min-height: 400px;
+    height: 400px;
 }
 .alt-grande{
     height: 600px;
