@@ -1,0 +1,166 @@
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* utility */
+.bg-azzurro{
+background-color: rgb(149, 248, 248);
+}
+
+.bg-celeste{
+    background: lightskyblue;
+}
+.bg-blu{
+background-color: blue;
+}
+
+.bg-rosa{
+background-color: palevioletred;
+}
+
+.bg-arancione{
+background-color: orange;
+}
+
+.bg-verde{
+background-color: green;
+}
+
+.bg-grigio{
+    background-color: rgb(182, 180, 180);
+}
+
+.bg-scuro{
+    background-color: rgb(56, 56, 56);
+}
+
+.bg-corallo{
+    background: lightcoral;
+}
+
+.bg-turchese{
+    background: teal;
+}
+.bg-acqua{
+    background: rgb(96, 238, 157);
+}
+.altezza{
+    height: 400px;
+}
+.alt-grande{
+    height: 600px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+/* flexbox */
+
+.flex{
+    display:flex;
+}
+
+.header{
+    justify-content: space-between;
+    align-items: center;
+    height: 50%;
+    width: 70%;
+}
+.space-between{
+    justify-content: space-between;
+    
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+.order{
+    order: 1;
+}
+/* layout */
+
+header{
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ret{
+    width: 50%;
+    height: 80%;
+}
+
+.ret-grande{
+    width: 70%;
+    height: 100%;
+}
+
+.sezione{
+    width: 70%;    
+    height: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.bg-blu.altezza{
+    height: 250px;
+}
+.bg-celeste.sezione{
+    width: 60%;
+    
+}
+
+.bg-rosa.sezione{
+    width: 40%;
+    
+}
+
+
+/* sezione a 5 colonne */
+
+.bg-corallo.sezione{
+    width: 30%;
+    /* height: 100%; */
+}
+
+.bg-turchese.sezione{
+    width: 70%;
+}
+
+li{
+    display: flex;
+    flex-basis: 25%;
+}
+
+.sezione.padding{
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+/* footer */
+
+footer{
+    height: 60px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.border{
+    border-top: 1px solid rgb(182, 180, 180);
+    border-bottom: 1px solid rgb(182, 180, 180);
+}
+
+.footer{
+    height: 70%;
+    width: 70%;
+    align-items: center;
+}
+
+.padding{
+    padding: 3px;
+    font-size: small;
+}
