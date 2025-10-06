@@ -42,6 +42,14 @@ background-color: palevioletred;
 .bg-bianco{
     background-color: white;
 }
+
+.bg-viola{
+    background-color: rgb(139, 137, 253);
+}
+.margine{
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
 .blocco{
     display: inline-block;
     border-radius: 30px;
@@ -168,10 +176,20 @@ header{
 }
 /* Sezioni Info */
 
+.stelle{
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    height: 40px;
+    width: 450px;
+}
 
-
-
-
+.onda{
+    background-image: url(../img/wave.svg);
+    background-repeat: repeat;
+    height: 50px;
+    color: rgb(247, 247, 247);
+    
+}
 
 .colonna{
     flex-direction: column;
